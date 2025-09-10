@@ -180,7 +180,7 @@ h1 {
 }
 
 nav {
-    display: none;
+    /* display: none; */
     position: fixed;
     left: 0;
     top: 0;
@@ -211,7 +211,7 @@ nav ul li a {
 nav ul li a:hover {
     background: #413E47;
     color: white;
-    transition: .3s;
+    transition: .3s ease-in-out;
 }
 
 .active {
